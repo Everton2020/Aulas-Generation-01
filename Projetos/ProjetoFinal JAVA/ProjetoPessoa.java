@@ -1,13 +1,24 @@
-package Projeto;
-public class Pessoa {
-private String nome;
+package AprendendoPoo;
+
+public class ProjetoPessoa 
+{private String nome;
 private int acesso;
+private int usuario;
+public int getUsuario() {
+	return usuario;
+}
+
+public void setUsuario(int usuario) {
+	this.usuario = usuario;
+}
+
 private String rotina;
 private int tempo;
 private String psico;
-public Pessoa(String nome, int usuario,String rotina, int tempo,String psico)
+public ProjetoPessoa(String nome, int usuario,String rotina, int tempo,String psico, int acesso)
 {
  this.nome=nome;
+ this.usuario=usuario;
  this.acesso=acesso;
  this.rotina=rotina;
  this.tempo=tempo;
